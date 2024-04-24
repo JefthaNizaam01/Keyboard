@@ -18,7 +18,7 @@ body {
     height:60px;
 }
 
-.one, .two, .three, .four, .five {
+.zero,.one, .two, .three, .four, .five {
     margin: 10px 0 0 0;
 }
 button {
