@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: rgb(214,214,214);
+    background-color: black;
 }
 
 .container{
@@ -22,12 +22,12 @@ body {
     margin: 10px 0 0 0;
 }
 button {
-    color: black;
+    color: red;
     width: 55px;
     height: 55px;
     border:none;
-    background: rgb(214,214,214);
-    box-shadow: 5px 5px 10px #474343, -5px -5px 10px #FFF;
+    background: black;
+    box-shadow: 5px 5px 10px red, -5px -5px 10px red;
     font-size: 20px;
     margin-left: 20px;
     outline:none;
