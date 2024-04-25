@@ -5,41 +5,37 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     background-color: black;
 }
-
 .container{
-    margin: 160px 0 0 200px;
+    margin: 150px 0 0 160px;
 }
-.row{
-    width: 100%;
+.row{  
     height:60px;
+    width: 100%;
 }
-
-.zero,.one, .two, .three, .four, .five {
-    margin: 10px 0 0 0;
+.zero,.one, .two, .three, .four, .five, .six {
+    margin: 11px 0 0 0;
 }
 button {
     color: red;
-    width: 55px;
-    height: 55px;
+    width: 57px;
+    height: 57px;
     border:none;
     background: black;
     box-shadow: 5px 5px 10px red, -5px -5px 10px red;
-    font-size: 20px;
+    font-size: 25px;
     margin-left: 20px;
     outline:none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
     border-radius: 20%;
 }
-
 button:active{
-    box-shadow: 1px 1px 2px #fff8f8, -1px -1px 2px #474343;  
+    box-shadow: 1px 1px 2px #FFF8F8, -1px -1px 2px #474343;
 }
-.back{
-    width: 115px;
+.backspace{
+    width: 130px;
     border-radius: 10px;
 }
 .tab{
@@ -61,12 +57,92 @@ button:active{
 .shift{
     width:150px;
     border-radius: 10px;
-} 
-.other{
+}
+.different{
     width:82px;
     border-radius: 10px;
 }
 .space{
     width:400px;
     border-radius: 10px;
+}
+.Delete {
+    width:95px;
+    border-radius: 10px; 
+}
+.insert {
+    width:95px;
+    border-radius: 10px; 
+}
+#top {
+    position:relative;
+    top: -10px;
+}
+.Print{
+    width:81px;
+    border-radius: 10px;  
+}
+.scroll {
+    width:80px;
+    height: -40px
+    border-radius: 10px;  
+}
+.pause {
+    width:90px;
+    border-radius: 10px;  
+}
+.Ins{
+    width:81px;
+    border-radius: 10px; 
+}
+.Home {
+    width:80px;
+    border-radius: 10px; 
+}
+.PageUp {
+    width:90px;
+    border-radius: 10px; 
+    position:relative;
+    top:-13px;
+    right: -3px;
+
+}
+.DEL{
+    width:80px;
+    border-radius: 10px;
+    position: relative;
+    right: -15px;
+}
+.End {
+    width:80px;
+    border-radius: 10px;
+    position: relative;
+    right: -17px;
+}
+.PageDown{
+    width:90px;
+    border-radius: 10px;
+    position: relative;
+    top: -12px;
+    right:-20px;
+}
+.secondc{
+    width: 75px;
+    border-radius: 10px;
+}
+
+#arrow {
+    position: relative;
+    top: -68px;
+    left: -145px
+}
+.leftarrow {
+    margin-left: 250px;
+
+}
+
+.downarrow {
+    width:57px;
+    border-radius: 10px;
+    margin-left: 1491px;
 }
