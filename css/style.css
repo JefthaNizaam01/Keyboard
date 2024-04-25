@@ -1,0 +1,76 @@
+*,
+*::before
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+.container{
+    margin: 150px 0 0 160px;
+}
+.row{  
+    height:60px;
+    width: 100%;
+}
+.zero,.one, .two, .three, .four, .five {
+    margin: 11px 0 0 0;
+}
+button {
+    color: red;
+    width: 57px;
+    height: 57px;
+    border:none;
+    background: black;
+    box-shadow: 5px 5px 10px red, -5px -5px 10px red;
+    font-size: 25px;
+    margin-left: 20px;
+    outline:none;
+    font-family: Arial;
+    border-radius: 20%;
+}
+button:active{
+    box-shadow: 1px 1px 2px #FFF8F8, -1px -1px 2px #474343;
+}
+.back{
+    width: 130px;
+    border-radius: 10px;
+}
+.tab{
+    width: 85px;
+    border-radius: 10px;
+}
+.slace{
+     width:85px;
+     border-radius: 10px;
+}
+.cap{
+    width:100px;
+    border-radius: 10px;
+}
+.enter{
+    width:135px;
+    border-radius: 10px;
+}
+.shift{
+    width:150px;
+    border-radius: 10px;
+}
+.other{
+    width:82px;
+    border-radius: 10px;
+}
+.space{
+    width:400px;
+    border-radius: 10px;
+}
+.Delete {
+    width:95px;
+    border-radius: 10px; 
+}
+.insert {
+    width:95px;
+    border-radius: 10px; 
+}
