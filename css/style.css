@@ -16,7 +16,7 @@ body {
     width: 100%;
 }
 .zero,.one, .two, .three, .four, .five, .six {
-    margin: 11px 0 0 0;
+    margin: 12px 0 0 0;
 }
 button {
     color: red;
@@ -42,20 +42,20 @@ button:active{
     width: 85px;
     border-radius: 10px;
 }
-.slace{
-     width:85px;
+.slash{
+     width:100px;
      border-radius: 10px;
 }
 .cap{
-    width:100px;
+    width:110px;
     border-radius: 10px;
 }
 .enter{
-    width:135px;
+    width:150px;
     border-radius: 10px;
 }
 .shift{
-    width:150px;
+    width:170px;
     border-radius: 10px;
 }
 .different{
@@ -80,3 +80,4 @@ button:active{
     border-radius: 10px;
     margin-left: 1055px;
 }
+
