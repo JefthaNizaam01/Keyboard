@@ -15,7 +15,7 @@ body {
     height:60px;
     width: 100%;
 }
-.zero,.one, .two, .three, .four, .five {
+.zero,.one, .two, .three, .four, .five, .six {
     margin: 11px 0 0 0;
 }
 button {
@@ -34,7 +34,7 @@ button {
 button:active{
     box-shadow: 1px 1px 2px #FFF8F8, -1px -1px 2px #474343;
 }
-.back{
+.backspace{
     width: 130px;
     border-radius: 10px;
 }
@@ -58,7 +58,7 @@ button:active{
     width:150px;
     border-radius: 10px;
 }
-.other{
+.different{
     width:82px;
     border-radius: 10px;
 }
@@ -73,4 +73,10 @@ button:active{
 .insert {
     width:95px;
     border-radius: 10px; 
+}
+
+.downarrow {
+    width:57px;
+    border-radius: 10px;
+    margin-left: 1055px;
 }
